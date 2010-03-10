@@ -1,5 +1,5 @@
 #summary ToDo's
-#labels todo
+#labels todo,Phase-Requirements
 
 = Co pozostaje do zrobienia =
 

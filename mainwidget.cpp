@@ -21,7 +21,7 @@ mainWidget::mainWidget(QWidget *parent) : QWidget(parent)
     panel->update();
 
     connect(sendButt, SIGNAL(clicked()), this, SLOT(komenda()));
-    connect(cmdLine, SIGNAL(editingFinished()), this, SLOT(komenda()));
+    connect(cmdLine, SIGNAL(returnPressed()), this, SLOT(komenda()));
 }
 
 void mainWidget::makeTheLook()
